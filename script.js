@@ -2,7 +2,7 @@ const dog_name = [{ name: 'Baunty', age: 2 }, { name: 'amir', age: 8 }];
 
 function makeGreen(){
     const p = document.querySelector('p');
-    p.lastElementChild.color = '#BADA55';
+    p.style.color = '#BADA55';
     p.style.fontsize = '50px';
 }
 
